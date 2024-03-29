@@ -26,6 +26,8 @@
 1. 下载工程
 2. Mac电脑的Reveal下载好，然后进入Helper -- Show Reveal Framwork in Finder
 3. 找到xcframework，然后找到ios-arm64，把可执行文件替换 `layout/Library/Application Support/RevealLoader`即可
-4. 没报错的话，package目录下有deb包，根据步骤手动安装即可 
+4. 没报错的话，package目录下有deb包，根据步骤手动安装即可
+
+![这是图片](./tcsp.png "Magic Gardens")
 
 iOS 15+可行 有问题联系我 13826241102
