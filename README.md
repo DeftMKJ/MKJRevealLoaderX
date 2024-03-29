@@ -16,6 +16,7 @@
 2. 用iFunBox拖进越狱机，我一般放在var/jb/var/root用户目录下（这个自己根据自己放就好）
 3. 越狱机上安装Filza,方便查看手机上文件目录，然后进入上面的目录，点击找到对应文件
 4. 点击右边叹号，然后点击右上角，用Sileo安装即可。
+5. 我这是默认全部开启的，只要打开你想要调试的App，Mac打开Reveal就行。
 > 大概率遇到问题，排查方式
 - 先用手机进入/var/jb/Library/Application Support/RevealLoader/RevealServer这，看看这个可执行文件在不在，然后看看是否有-x权限，不行把755安排上
 - 如果已存在，但还是不行，使用 ldid 进行伪签名:
